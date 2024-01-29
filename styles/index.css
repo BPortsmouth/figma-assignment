@@ -15,6 +15,7 @@ body {
     display: inline-block;
     margin-top: 37px; 
     margin-left: 80px;
+    margin-bottom: 0px;
 }
 
 .logo span {
@@ -52,9 +53,9 @@ body {
 .sign-in-button {
     width: 120px;
     height: 59.651px;
-    flex-shrink: 0;
-    background: none;
-    border: none;
+    background: #FFF;
+    border: #FFF;
+    border-radius: 6px;
     color: #1B0A42;
     text-align: center;
     font-family: Roboto;
@@ -65,11 +66,13 @@ body {
     letter-spacing: 0.32px;
 }
 
+.sign-in-button:hover {
+    background: #9A9A9A;
+}
+
 .sign-up-button {
     width: 120px;
     height: 59.651px;
-    flex-shrink: 0;
-    border: 1px solid;
     border-radius: 6px;
     background: #4F56F1;
     color: #FFF;
@@ -80,4 +83,60 @@ body {
     font-weight: 700;
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
+}
+
+.main-text {
+    margin-left: 200px;
+    float: inline-start;
+}
+
+.main-title {
+    color: #1B0A42;
+    font-family: Ramaraja;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 76px; /* 105.556% */
+    letter-spacing: 1.44px;
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 200px;
+}
+
+.main-content {
+    color: #9A9A9A;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    letter-spacing: 0.4px;
+    max-width: 538.078px;
+    width: 100%;
+    margin-top: 0;
+}
+
+.main-button {
+    width: 152px;
+    height: 63.818px;
+    border-radius: 6px;
+    background: #4F56F1;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 200% */
+    letter-spacing: 0.32px;
+    margin-top: 50px;
+}
+
+.main-image {
+    float: inline-end;
+    margin-top: 108px;
+    margin-right: 94px;
+    max-height: 604px;
+    height: 100%;
 }
