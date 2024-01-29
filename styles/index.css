@@ -32,7 +32,7 @@ body {
     letter-spacing: 0.32px;
     display: inline-block;
     margin-left: 57.5px;
-    vertical-align: 25%;
+    transform: translateY(-5.61px);
 }
 
 
