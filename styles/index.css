@@ -35,11 +35,15 @@ body {
     transform: translateY(-5.61px);
 }
 
-
-
 .site-navigation li {
     display: inline;
-    margin: 0 20px;
+    margin: 0px;
+    padding: 20px;
+}
+
+.site-navigation li:hover {
+    background: #9A9A9A;
+    border-radius: 5px;
 }
 
 .sign-in-buttons {
@@ -84,6 +88,10 @@ body {
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
 }
+
+.sign-up-button:hover, .main-button:hover {
+    background: #0A1B32;
+} 
 
 .main-text {
     margin-left: 200px;
